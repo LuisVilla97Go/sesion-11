@@ -7,9 +7,22 @@
     <title>Sesion 11 - Tailwind</title>
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline">
+    <h1 class="text-3xl font-bold underline text-center">
       ¡Hola Mundo!
     </h1>
-    <p class="text-[#eef6f7] m-10 p-auto text-center bg-[#310e83]"> Estamos probando Tailwind</p>
+    <!-- Si quieres un valor en especifico, usamos corchertes [] -->
+    <!-- w-[400px] / text-[#1oaqao]c/ p{10px} -->
+     <!-- pseudo-clase: valor -->
+    <p class="text-[#eef6f7] m-10 p-auto text-center rounded-xl hover:bg-green-700 active:bg-red-800 bg-[#310e83]"> Estamos probando Tailwind</p>
+    
+    <!-- div>div[class="w-[50px] h-[50px] rounded bg-blue-200"]*5 para sacar un por 5 en emmet -->
+    <div class="flex gap-[50px] justify-evenly">
+      <div class="w-[50px] h-[50px] rounded bg-blue-200"></div>
+      <div class="w-[50px] h-[50px] rounded bg-blue-200"></div>
+      <div class="w-[50px] h-[50px] rounded bg-blue-200"></div>
+      <div class="w-[50px] h-[50px] rounded bg-blue-200"></div>
+      <div class="w-[50px] h-[50px] rounded bg-blue-200"></div>
+    </div>
+
   </body>
 </html>
